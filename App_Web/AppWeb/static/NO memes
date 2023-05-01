@@ -1,0 +1,168 @@
+<!-- <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/TAZA_MEMERA.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 1 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 1.2K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Cup Memera</span>
+                  <h4>Cup vainitas for Memero</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/TAZA-OMEGA-001.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 2 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 1K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Omega Cup</span>
+                  <h4>Cup Samurai</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/TERMO_MEMERA.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 3 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 26K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Metal thermos</span>
+                  <h4>Heavy metal thermos</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/Cover.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 4 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 1.6K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Cover Notebook</span>
+                  <h4>Cover Notebook Memero</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/SUNBEDS.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 5 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 1.9K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Sunbeds</span>
+                  <h4>Sunbeds Memeros</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/WINTERHAT.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 8 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 2.3K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Winter Hat</span>
+                  <h4>Warm Memeros head</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/HAT.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 9 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 12K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> Omega Hat</span>
+                  <h4>Hat for the Fans</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <img src="{% static 'assets/images/SOAP.jpg' %}" alt="">
+                  <div class="hover-effect">
+                    <div class="content">
+                      <div class="live">
+                        <a href="{% url 'details' 14 %}">Buy</a>
+                      </div>
+                      <ul>
+                        <li><a href="#"><i class="fa fa-eye"></i> 120K</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="down-content">
+                  <span><i class="fa fa-check"></i> 50% Vegan 50% Animal Soap</span>
+                  <h4>Semi Natural Soap</h4>
+                </div>
+              </div>
+            </div> -->

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <title>Error 404</title>
+    <link rel="stylesheet" href="{% static 'css/astronauta.css' %}">
+</head>
+
+{% block contenidoQueCambia %}
+<body>
+    <div class="text">
+        <div>ERROR</div>
+        <h1>404</h1>
+        <hr>
+        <div>Page Not Found</div>
+    </div>
+    
+    <div class="astronaut">
+        <img src="{% static 'assets/images/dibujos-animados-de-astronauta-espacial.png' %}" alt="" class="src">
+    </div>
+    <script src="{% static 'js/astronauta.js' %}"></script>
+</body>
+{% endblock contenidoQueCambia %}
+
+</html>

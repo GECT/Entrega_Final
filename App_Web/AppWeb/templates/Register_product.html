@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>Cyborg - Awesome HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/templatemo-cyborg-gaming.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!--
+
+TemplateMo 579 Cyborg Gaming
+
+https://templatemo.com/tm-579-cyborg-gaming
+
+-->
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    {% include 'navbar.html' %}
+    <!-- ***** Header Area End ***** -->
+
+    {% block contenidoQueCambia %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-content">
+
+                    <!-- ***** Banner Start ***** -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="heading-section">
+                                <div class="header-text">
+                                    <h6>Welcome</h6>
+                                    <h4><em>REGISTER</em> PRODUCT</h4>
+
+                                    <!-- ***** REGISTRO FORMULARIO ***** -->
+
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="main-profile">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <form method="post" enctype="multipart/form-data">
+                                                            <div style="color: white;">
+                                                                {% csrf_token %}
+                                                                {{ form.as_p }}
+                                                                <button type="submit"
+                                                                    style="background-color: #d9486d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-top: 20px;">
+                                                                    Register Product
+                                                                </button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <bg-image>
+                        <img src="{% static 'assets\images\banner-bg.jpg' %}" alt="">
+                    </bg-image>
+
+
+                    <!-- ***** REGISTRO FORMULARIO ***** -->
+
+
+                    <!-- ***** Banner End ***** -->
+                    {% endblock contenidoQueCambia %}
+
+
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p>Copyright © 2024 <a href="#">Vainitas Memeras</a> Company. <br>All rights
+                                        reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+
+                    <!-- Scripts -->
+                    <!-- Bootstrap core JavaScript -->
+                    <script src="{% static 'jquery/jquery.min.js' %}"></script>
+                    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+                    <script src="{% static 'js/isotope.min.js' %}"></script>
+                    <script src="{% static 'js/owl-carousel.js' %}"></script>
+                    <script src="{% static 'js/tabs.js' %}"></script>
+                    <script src="{% static 'js/popup.js' %}"></script>
+                    <script src="{% static 'js/custom.js' %}"></script>
+
+
+</body>
+
+</html>

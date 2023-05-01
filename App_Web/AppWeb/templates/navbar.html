@@ -1,0 +1,56 @@
+{% load static %}
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="{% url 'home' %}" class="logo">
+                        <img src="{% static 'assets/images/logo.png' %}" alt="">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Search End ***** -->
+                    {% block content %}
+                    <div class="search-input">
+                        <form id="search" action="{% url 'search_images' %}" method="get">
+                            <input type="text" placeholder="Search Wallpaper" id='searchText' name="searchKeyword"
+                                onkeypress="handle" />
+                            <i class="fa fa-search"></i>
+                        </form>
+                    </div>
+                    {% endblock %}
+                    <!-- ***** Search End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="{% url 'home' %}">Home</a></li>
+                        <li><a href="{% url 'wallpapers' %}">wallpapers</a></li>
+                        <li><a href="{% url 'memeros' %}">Memeros Shop</a></li>
+                        <li><a href="{% url 'Sign_in' %}">Sign In</a></li>
+                        <!-- <li><a href="{% url 'Logout' %}">Logout <img src="{% static 'assets/images/profile-header.jpg' %}" alt=""></a> -->
+
+                        {% if user.is_authenticated %}
+                            <li class="text-button">
+                                <a href="{% url 'profile' %}">{{user.username}}</a>
+                            </li>
+                                {% if url %}
+                                    <li>
+                                        <a href="{% url 'Logout' %}"> Logout <img height="30px" src="{{url}}" alt="avatar"></a>
+                                    </li>
+                                {% else %}
+                                    <li>
+                                        <a href="{% url 'Logout' %}"> Logout </a>
+                                    </li>
+                                {% endif %}
+                        {% else %}
+                        <li><a href="{% url 'Login' %}">Login </a></li>
+                        {% endif %}
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

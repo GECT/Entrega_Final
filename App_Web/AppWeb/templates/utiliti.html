@@ -1,0 +1,9 @@
+<form method="post" enctype="multipart/form-data">
+    <div style="color: white;">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" style="background-color: #d9486d; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Register Product
+        </button>
+    </div>
+</form>

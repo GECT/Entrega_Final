@@ -1,0 +1,16 @@
+{% extends 'profile.html' %}
+{% load static %}
+{% block contenidoQueCambia %}
+<div class="text-center text-white">
+    <div>
+        <br>
+        <h2>Thanks for the visit, come back soon</h2>
+        <h1>{{mensaje}}</h1><br>
+        <div class="col-lg-12">
+            <div class="main-button">
+                <a href="{% url 'home' %}">Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock contenidoQueCambia %}

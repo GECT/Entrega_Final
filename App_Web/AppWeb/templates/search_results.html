@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>DETALLES</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/templatemo-cyborg-gaming.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!--
+
+TemplateMo 579 Cyborg Gaming
+
+https://templatemo.com/tm-579-cyborg-gaming
+
+-->
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    {% include 'navbar.html' %}
+    <!-- ***** Header Area End ***** -->
+    {% block contenidoQueCambia %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-content">
+
+                    <!-- ***** Featured Start ***** -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="feature-banner header-text">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-3 col-sm-6">
+                                            {% block content %}
+                                            <h2>Search Results:</h2>
+
+                                            {% if results %}
+                                            <ul>
+                                                {% for image in results %}
+                                                <h1>{{ image.name }}</h1>
+                                                    {% if image.id == 1 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/01.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/01.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 2 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/02.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/02.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 3 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/03.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/03.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 4 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/04.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/04.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 5 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/05.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/05.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 6 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/06.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/06.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 7 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/07.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/07.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 8 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/08.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/08.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 9 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/09.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/09.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 10 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/10.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/10.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 11 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/11.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/11.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 12 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/12.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/12.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 13 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/13.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/13.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 14 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/14.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/14.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 15 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/15.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/15.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% elif image.id == 16 %}
+                                                    <div class="col-lg-12">
+                                                        <img src="{% static 'assets/images/16.jpg' %}" alt="{{ product.name }}" style="border-radius: 23px;">
+
+                                                        <div class="main-border-button" style="margin-top: 25px;">
+                                                            <a href="{% url 'wallpapers' %}">Wallpaper</a>
+                                                            <a href="{% static 'assets/images/16.jpg' %}" download>Download</a>
+                                                        </div>
+                                                    </div>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </ul>
+                                            {% else %}
+                                            <h4>No results found.</h4>
+                                            {% endif %}
+                                            {% endblock %}
+
+                                            <div class="item">
+                                                <div class="thumb">
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ***** Featured End ***** -->
+
+
+                    <!-- ***** Details Start ***** -->
+                    <div class="game-details">
+                        <div class="row">
+                            <div class="col-lg-12"><br>
+                                {% endblock contenidoQueCambia %}
+                                <div class="col-lg-12">
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="main-border-button">
+                                                    <a href="{% url 'home' %}">Home</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ***** Details End ***** -->
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright © 2024 <a href="#">Vainitas Memeras</a> Company. <br>All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="{% static 'jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+        <script src="{% static 'js/isotope.min.js' %}"></script>
+        <script src="{% static 'js/owl-carousel.js' %}"></script>
+        <script src="{% static 'js/tabs.js' %}"></script>
+        <script src="{% static 'js/popup.' %}js"></script>
+        <script src="{% static 'js/custom.' %}js"></script>
+
+</body>
+
+</html>

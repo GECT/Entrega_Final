@@ -1,0 +1,396 @@
+                                    <!-- 1-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/01.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/01.jpg' 1 %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 1.4K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> frog</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- 2-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/02.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/02.jpg' 2 %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 12K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> cereal</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/03.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/03.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 22K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> flame</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/04.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/04.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 23K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> dog</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/05.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/05.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 45K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> think</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 6-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/06.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/06.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 4K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> ricardo</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 7-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/07.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/07.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 6.5K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> he man</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 8-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/08.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/08.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 8.2K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> cat</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 9-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/09.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/09.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 1.3K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> random</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 10-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/10.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/10.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 1.5K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> windows</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 11-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/11.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/11.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 5.6K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> mix</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 12-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/12.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/12.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 34K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> jurassic park</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 13-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/13.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/13.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 43K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> dog wall</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 14-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/14.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/14.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 166K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> faces</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 15-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/15.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/15.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 77K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> Wallpaper</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 16-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/16.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/16.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 90K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> memes</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 16-wallpaper -->
+                                    <div class="image_container">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <img src="{% static 'assets/images/16.jpg' %}" alt="">
+                                                <div class="hover-effect">
+                                                    <div class="content">
+                                                        <div class="live">
+                                                            <a href="{% static 'assets/images/16.jpg' %}"
+                                                                download>Download</a>
+                                                        </div>
+                                                        <ul>
+                                                            <li><a href="#"><i class="fa fa-eye"></i> 90K</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="down-content">
+                                                <span><i class="fa fa-check"></i> memes</span>
+                                                <h4>Wallpaper Memero</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
